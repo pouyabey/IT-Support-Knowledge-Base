@@ -6,12 +6,12 @@ A simple collection of IT support knowledge base articles for common Help Desk i
 
 ## Contents
 
-- `internet-connectivity-troubleshooting.md` — Troubleshooting Wi-Fi, Ethernet, DNS, DHCP, and basic internet issues.
-- `printer-not-printing.md` — Basic printer checks, print queue issues, and driver troubleshooting.
-- `application-not-responding.md` — Steps for frozen, crashing, or unresponsive applications.
-- `slow-computer-performance.md` — Common causes and fixes for slow Windows computers.
-- `computer-will-not-power-on.md` — Basic power, cable, and hardware checks.
-- `bsod-troubleshooting.md` — Basic Blue Screen of Death troubleshooting and escalation notes.
+- [Internet Connectivity Troubleshooting](./internet-connectivity-troubleshooting/README.md) — Troubleshooting Wi-Fi, Ethernet, DNS, DHCP, and basic internet issues.
+- [Printer Not Printing](./printer-not-printing/README.md) — Basic printer checks, print queue issues, and driver troubleshooting.
+- [Application Not Responding](./application-not-responding/README.md) — Steps for frozen, crashing, or unresponsive applications.
+- [Slow Computer Performance](./slow-computer-performance/README.md) — Common causes and fixes for slow Windows computers.
+- [Computer Will Not Power On](./computer-will-not-power-on/README.md) — Basic power, cable, and hardware checks.
+- [BSOD Troubleshooting](./bsod-troubleshooting/README.md) — Basic Blue Screen of Death troubleshooting and escalation notes.
 
 ---
 
