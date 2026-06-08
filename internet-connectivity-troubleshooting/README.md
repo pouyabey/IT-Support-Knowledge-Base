@@ -1,39 +1,38 @@
 # Internet Connectivity Troubleshooting
 
-## How Do I Write Knowledge Base Articles?
+### How I Write Knowledge Base Articles
 
 When writing a knowledge base article, I use a clear and step-by-step structure so both end users and IT technicians can follow it easily.
 
 1. Define the purpose of the article
-Explain what issue the article covers and who should use it.
+   Explain what issue the article covers and who should use it.
 
 2. List common symptoms
-Include the signs users or technicians may see, such as error messages, no internet access, slow connection, or application errors.
+   Include signs users or technicians may see, such as error messages, no internet access, slow connection, or application errors.
 
 3. Add quick checks first
-Start with the easiest troubleshooting steps, such as restarting the device, checking cables, confirming Wi-Fi connection, or verifying basic settings.
+   Start with the easiest troubleshooting steps, such as restarting the device, checking cables, confirming Wi-Fi connection, or verifying basic settings.
 
 4. Provide step-by-step troubleshooting instructions
-Write the troubleshooting process in a clear order, starting with basic checks and moving toward more technical steps.
+   Write the troubleshooting process in a clear order, starting with basic checks and moving toward more technical steps.
 
 5. Include commands, screenshots, and expected results
-Add useful commands, screenshots, examples of error messages, and explain what normal or abnormal results look like.
+   Add useful commands, screenshots, examples of error messages, and explain what normal or abnormal results look like.
 
 6. Add resolution steps
-Explain what usually fixes the issue and how to apply the fix safely.
+   Explain what usually fixes the issue and how to apply the fix safely.
 
 7. Include verification steps
-Explain how to confirm the issue is resolved, such as testing internet access, opening a website, printing a test page, or confirming with the user.
+   Explain how to confirm the issue is resolved, such as testing internet access, opening a website, printing a test page, or confirming with the user.
 
 8. Add escalation criteria
-Explain when the issue should be escalated to Tier 2, the network team, system administrator, vendor, or another department.
+   Explain when the issue should be escalated to Tier 2, the network team, system administrator, vendor, or another department.
 
 9. Add documentation notes
-Include what the technician should write in the ticket, such as the issue, troubleshooting steps, resolution, and user confirmation.
+   Include what the technician should write in the ticket, such as the issue, troubleshooting steps, resolution, and user confirmation.
 
 10. Keep the article clear and easy to update
-Use simple language, headings, bullet points, and update the article when procedures, tools, or systems change.
-
+   Use simple language, headings, bullet points, and update the article when procedures, tools, or systems change.
 ---
 
 ## Purpose
