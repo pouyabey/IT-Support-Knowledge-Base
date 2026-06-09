@@ -1,39 +1,16 @@
 # Application Not Responding
 
-## How Do I Write Knowledge Base Articles?
+## How I Write Knowledge Base Articles
 
-When writing a knowledge base article, I use a clear and step-by-step structure so both end users and IT technicians can follow it easily.
-
-1. Define the purpose of the article
-Explain what issue the article covers and who should use it.
-
+1. Define the purpose and audience
 2. List common symptoms
-Include the signs users or technicians may see, such as error messages, frozen screens, slow performance, or application crashes.
-
-3. Add quick checks first
-Start with the easiest troubleshooting steps, such as waiting a few seconds, checking if the whole computer is frozen, restarting the application, or rebooting the device.
-
-4. Provide step-by-step troubleshooting instructions
-Write the troubleshooting process in a clear order, starting with basic checks and moving toward more technical steps.
-
-5. Include commands, screenshots, and expected results
-Add useful commands, screenshots, examples of error messages, and explain what normal or abnormal results look like.
-
-6. Add resolution steps
-Explain what usually fixes the issue and how to apply the fix safely.
-
-7. Include verification steps
-Explain how to confirm the issue is resolved, such as reopening the application, testing normal functions, or confirming with the user.
-
-8. Add escalation criteria
-Explain when the issue should be escalated to Tier 2, the application owner, system administrator, vendor, or another department.
-
-9. Add documentation notes
-Include what the technician should write in the ticket, such as the issue, troubleshooting steps, resolution, and user confirmation.
-
-10. Keep the article clear and easy to update
-Use simple language, headings, bullet points, and update the article when procedures, tools, or systems change.
-
+3. Start with quick basic checks
+4. Provide clear step-by-step troubleshooting
+5. Add screenshots, commands, and expected results
+6. Include resolution and verification steps
+7. Add escalation criteria
+8. Include ticket documentation notes
+9. Keep the article simple, organized, and easy to update
 ---
 
 ## Purpose
