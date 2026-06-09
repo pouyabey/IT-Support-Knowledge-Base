@@ -2,10 +2,6 @@
 
 ### How I Write Knowledge Base Articles
 
-When writing a knowledge base article, I use a clear and step-by-step structure so both end users and IT technicians can follow it easily.
-
-## How I Write Knowledge Base Articles
-
 1. Define the purpose and audience
 2. List common symptoms
 3. Start with quick basic checks
@@ -16,7 +12,7 @@ When writing a knowledge base article, I use a clear and step-by-step structure 
 8. Include ticket documentation notes
 9. Keep the article simple, organized, and easy to update
 
----    
+---
 
 ## Purpose
 
@@ -39,6 +35,8 @@ This article provides basic troubleshooting steps for resolving common internet 
 4. Reboot the computer.
 5. If multiple users are affected, restart the modem/router or escalate to the network team.
 
+---
+
 ## Troubleshooting Steps
 
 ### 1. Check Wi-Fi or Ethernet Connection
@@ -48,6 +46,17 @@ This article provides basic troubleshooting steps for resolving common internet 
 - Check Wi-Fi signal strength.
 - If using Ethernet, confirm the cable is fully connected.
 - Try a different Ethernet cable or port if available.
+
+Screenshot:
+
+![Check Wi-Fi or Ethernet Connection](screenshots/internet-connectivity-01-check-wifi-ethernet.png) ![Check Wi-Fi or Ethernet Connection](screenshots/internet-connectivity-02-check-wifi-ethernet.png)
+
+
+Expected result:
+
+The device is connected to the correct Wi-Fi network or Ethernet connection.
+
+---
 
 ### 2. Verify IP Configuration
 
@@ -64,6 +73,16 @@ Check for:
 
 If the device has a 169.254.x.x address, it may not be receiving an IP address from DHCP.
 
+Screenshot:
+
+![Verify IP Configuration](screenshots/internet-connectivity-02-ipconfig-all.png)
+
+Expected result:
+
+The device has a valid IPv4 address, default gateway, and DNS server.
+
+---
+
 ### 3. Test Local Network Connectivity
 
 Run:
@@ -76,6 +95,16 @@ ping <default-gateway>
 
 If the gateway does not respond, the issue may be related to Wi-Fi, Ethernet, DHCP, or the local network.
 
+Screenshot:
+
+![Test Local Network Connectivity](screenshots/internet-connectivity-03-ping-gateway.png)
+
+Expected result:
+
+The loopback address and default gateway respond successfully.
+
+---
+
 ### 4. Test Internet Connectivity
 
 Run:
@@ -83,6 +112,16 @@ Run:
 ping 8.8.8.8
 
 If this works but websites do not load, the issue may be DNS-related.
+
+Screenshot:
+
+![Test Internet Connectivity](screenshots/internet-connectivity-04-ping-public-ip.png)
+
+Expected result:
+
+The device can reach an external public IP address.
+
+---
 
 ### 5. Test DNS Resolution
 
@@ -96,6 +135,16 @@ ipconfig /flushdns
 
 Then test the website again.
 
+Screenshot:
+
+![Test DNS Resolution](screenshots/internet-connectivity-05-nslookup-dns.png)
+
+Expected result:
+
+The domain name resolves successfully to an IP address.
+
+---
+
 ### 6. Renew IP Address
 
 If the device has an invalid IP address or no internet access, run:
@@ -104,6 +153,16 @@ ipconfig /release
 ipconfig /renew
 
 After renewing the IP address, test internet access again.
+
+Screenshot:
+
+![Renew IP Address](screenshots/internet-connectivity-06-release-renew-ip.png)
+
+Expected result:
+
+The device receives a new valid IP address from DHCP.
+
+---
 
 ### 7. Restart Network Adapter
 
@@ -116,6 +175,16 @@ If the issue continues:
 5. Enable the adapter again.
 
 You can also restart the adapter from Control Panel or Device Manager.
+
+Screenshot:
+
+![Restart Network Adapter](screenshots/internet-connectivity-07-restart-adapter.png)
+
+Expected result:
+
+The network adapter restarts successfully and reconnects to the network.
+
+---
 
 ## Escalation Criteria
 
