@@ -135,10 +135,6 @@ ipconfig /flushdns
 
 Then test the website again.
 
-Screenshot:
-
-![Test DNS Resolution](screenshots/internet-connectivity-05-nslookup-dns.png)
-
 Expected result:
 
 The domain name resolves successfully to an IP address.
@@ -153,10 +149,6 @@ ipconfig /release
 ipconfig /renew
 
 After renewing the IP address, test internet access again.
-
-Screenshot:
-
-![Renew IP Address](screenshots/internet-connectivity-06-release-renew-ip.png)
 
 Expected result:
 
@@ -175,10 +167,6 @@ If the issue continues:
 5. Enable the adapter again.
 
 You can also restart the adapter from Control Panel or Device Manager.
-
-Screenshot:
-
-![Restart Network Adapter](screenshots/internet-connectivity-07-restart-adapter.png)
 
 Expected result:
 
