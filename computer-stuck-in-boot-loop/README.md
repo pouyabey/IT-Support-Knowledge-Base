@@ -143,6 +143,10 @@ Examples:
 8. Click Roll Back Driver if the option is available.
 9. Restart the computer normally.
 
+![Windows Automatic Repair Screen 03](screenshots/roll-back-update-01.png)
+![Windows Automatic Repair Screen 03](screenshots/roll-back-update-02.png)
+
+
 Expected result:
 The previous driver version is restored and the computer boots normally.
 
