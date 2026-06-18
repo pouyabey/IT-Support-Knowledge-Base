@@ -47,6 +47,17 @@ Screenshot: windows-automatic-repair-screen.png
 Expected result:
 The computer opens the Windows recovery screen.
 
+Note: To reach Windows Recover Enviornment when Windows boots normally: 
+
+1. Open Start Menu.
+2. Search for Command Prompt.
+3. Right-click Command Prompt.
+4. Select Run as administrator.
+5. Type and press enter:
+
+shutdown /r /o /f /t 0
+
+
 ### 2. Open Advanced Options
 
 From the Automatic Repair screen:
