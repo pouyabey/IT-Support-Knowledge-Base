@@ -153,14 +153,24 @@ If Roll Back Driver is grayed out, Windows may not have a previous driver versio
 
 If storage issues are suspected, open Command Prompt as Administrator and run:
 
-chkdsk C: /scan
+chkdsk C:
 
 Screenshot: command-prompt-chkdsk.png
 
 Expected result:
-Windows scans the drive and reports whether errors were found.
+Windows checks the drive and reports whether file system errors were found.
 
-If disk errors are found, escalate or follow company policy before running repair commands.
+Note:
+If Windows is running normally, you can also run:
+
+chkdsk C: /scan
+
+This performs an online scan. However, this command may not work in Safe Mode because some required services may not be running.
+
+If disk errors are found, document the result and escalate or follow company policy before running repair commands such as:
+
+chkdsk C: /f
+chkdsk C: /r
 
 ### 7. Disconnect External Devices
 
