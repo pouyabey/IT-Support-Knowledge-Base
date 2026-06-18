@@ -37,7 +37,7 @@ If it does not open:
 
 1. Turn on the computer.
 2. When the Windows logo or spinning dots appear, hold the power button until the device turns off.
-3. Repeat this 2 to 3 times.
+3. Repeat this 2 to 3 times. Alternatively, connect a Windows recovery USB or Windows installation USB, press F11 during startup, select the USB drive, and choose Repair your computer.
 4. Wait for Preparing Automatic Repair or Diagnosing your PC.
 5. Select Advanced options.
 
