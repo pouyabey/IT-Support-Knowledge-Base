@@ -159,7 +159,7 @@ If storage issues are suspected, open Command Prompt as Administrator and run:
 
 chkdsk C:
 
-Screenshot: command-prompt-chkdsk.png
+![Windows Automatic Repair Screen 01](screenshots/check-disk-health.png)
 
 Expected result:
 Windows checks the drive and reports whether file system errors were found.
