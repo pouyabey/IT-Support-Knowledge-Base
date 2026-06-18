@@ -102,7 +102,7 @@ Steps:
 3. Select Restart.
 4. Press 4 for Safe Mode or 5 for Safe Mode with Networking.
 
-Screenshot: safe-mode-startup-settings.png
+![Windows Automatic Repair Screen 01](screenshots/safe-mode-startup-settings.png)
 
 Expected result:
 Windows starts with basic drivers and services.
