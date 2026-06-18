@@ -111,18 +111,29 @@ Use Safe Mode to remove recent software, check Device Manager, roll back drivers
 
 ### 5. Remove Recent Updates or Drivers
 
-If the boot loop started after an update or driver change, remove or roll back the recent change if allowed by company policy.
+If the computer boots into Safe Mode, remove the recent update or roll back the recent driver if allowed by company policy.
 
-Examples:
+To remove a Windows update:
 
-- Windows update
-- Display driver update
-- Storage driver update
-- Antivirus update
-- VPN software update
-- Printer or docking station driver
+1. Open Settings.
+2. Go to Windows Update > Update history.
+3. Select Uninstall updates.
+4. Choose the most recent update.
+5. Click Uninstall.
+6. Restart the computer normally.
+
+To roll back a driver:
+
+1. Right-click Start.
+2. Open Device Manager.
+3. Right-click the recently updated device.
+4. Select Properties.
+5. Go to the Driver tab.
+6. Click Roll Back Driver.
+7. Restart the computer normally.
 
 Screenshot: uninstall-updates-option.png
+Screenshot: device-manager-roll-back-driver.png
 
 Expected result:
 The computer boots normally after the problematic update or driver is removed.
