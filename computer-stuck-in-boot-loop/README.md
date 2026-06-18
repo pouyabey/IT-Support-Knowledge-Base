@@ -42,7 +42,9 @@ press F11 during startup, select the USB drive, and choose Repair your computer.
 4. Wait for Preparing Automatic Repair or Diagnosing your PC.
 5. Select Advanced options.
 
-Screenshot: windows-automatic-repair-screen.png
+Screenshot: [windows-automatic-repair-screen.png](screenshots/windows-automatic-repair-screen-01.png)
+Screenshot: [windows-automatic-repair-screen.png](screenshots/windows-automatic-repair-screen-02.png)
+Screenshot: [windows-automatic-repair-screen.png](screenshots/windows-automatic-repair-screen-03.png)
 
 Expected result:
 The computer opens the Windows recovery screen.
