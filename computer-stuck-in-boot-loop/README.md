@@ -207,7 +207,9 @@ Check for:
 - Incorrect boot mode
 - Recent BIOS or firmware change
 
-Screenshot: bios-boot-order-screen.png
+![Windows Automatic Repair Screen 01](screenshots/check-bios-or-boor-order-01.png)
+
+![Windows Automatic Repair Screen 01](screenshots/check-bios-or-boor-order-02.png)
 
 Expected result:
 The internal drive is detected and selected as the correct boot device.
