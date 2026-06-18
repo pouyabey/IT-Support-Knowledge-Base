@@ -126,17 +126,28 @@ To roll back a driver:
 
 1. Right-click Start.
 2. Open Device Manager.
-3. Right-click the recently updated device.
-4. Select Properties.
-5. Go to the Driver tab.
-6. Click Roll Back Driver.
-7. Restart the computer normally.
+3. Check the device category related to the recent change.
 
-Screenshot: uninstall-updates-option.png
-Screenshot: device-manager-roll-back-driver.png
+Examples:
+- Display adapters
+- Network adapters
+- Storage controllers
+- Disk drives
+- Universal Serial Bus controllers
+- System devices
+
+4. Right-click the suspected device.
+5. Select Properties.
+6. Go to the Driver tab.
+7. Check the Driver Date and Driver Version.
+8. Click Roll Back Driver if the option is available.
+9. Restart the computer normally.
 
 Expected result:
-The computer boots normally after the problematic update or driver is removed.
+The previous driver version is restored and the computer boots normally.
+
+Note:
+If Roll Back Driver is grayed out, Windows may not have a previous driver version available. Document the issue and escalate according to company policy.
 
 ### 6. Check Disk Health
 
