@@ -31,26 +31,20 @@ Screenshot: boot-loop-loading-screen.png
 
 ### 1. Open Automatic Repair
 
-If the computer is stuck in a boot loop, Windows may open Automatic Repair automatically after several failed startup attempts.
+Windows may open Automatic Repair automatically after several failed startup attempts.
 
-If Automatic Repair does not open automatically, force Windows to enter recovery mode:
-
-Steps:
+If it does not open:
 
 1. Turn on the computer.
-2. When the Windows logo or spinning dots appear, press and hold the power button until the computer turns off.
-3. Turn the computer on again.
-4. Repeat this process 2 to 3 times.
-5. On the next startup, Windows should display Preparing Automatic Repair or Diagnosing your PC.
-6. When the recovery screen appears, select Advanced options.
+2. When the Windows logo or spinning dots appear, hold the power button until the device turns off.
+3. Repeat this 2 to 3 times.
+4. Wait for Preparing Automatic Repair or Diagnosing your PC.
+5. Select Advanced options.
 
 Screenshot: windows-automatic-repair-screen.png
 
 Expected result:
-The computer opens the Windows recovery screen and provides repair options.
-
-Note:
-Do not keep forcing shutdown many times without documenting the issue. If the device does not enter Automatic Repair after several attempts, escalate or use company recovery media.
+The computer opens the Windows recovery screen.
 
 ### 2. Open Advanced Options
 
