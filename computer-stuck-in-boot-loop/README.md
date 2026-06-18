@@ -197,6 +197,9 @@ If the computer boots normally, reconnect devices one at a time to identify the 
 
 If the computer is trying to boot from the wrong device, check the boot order.
 
+Esc = Boot Manager
+F2 = BIOS/UEFI Setup
+
 Check for:
 
 - USB drive selected as the first boot device
