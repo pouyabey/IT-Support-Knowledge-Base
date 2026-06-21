@@ -1,5 +1,6 @@
 # User Cannot Access Internet While Other Devices Work
 
+
 ## How I Write Knowledge Base Articles
 
 1. Define the purpose and audience
@@ -11,6 +12,12 @@
 7. Add escalation criteria
 8. Include ticket documentation notes
 9. Keep the article simple, organized, and easy to update
+
+# It is recommended to include screenshots. However, since these documents are mainly for my personal reference, I prefer to keep them simple and avoid adding screenshots. Instead, I create a video for each knowledge base article and include it in my video portfolio:
+
+# https://www.youtube.com/@pouyabeyranvand1688
+
+
 
 ## Purpose
 This article provides troubleshooting steps for a user who cannot access the internet while other devices on the same network are working.
