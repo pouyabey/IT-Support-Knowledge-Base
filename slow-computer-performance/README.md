@@ -11,224 +11,232 @@
 7. Add escalation criteria
 8. Include ticket documentation notes
 9. Keep the article simple, organized, and easy to update
+
+---
+### It is recommended to include screenshots in Knowledge Base articles. However, since these documents are mainly for my personal reference, I prefer to keep them simple and avoid adding screenshots. Instead, I create a video for each knowledge base article and include it in my video portfolio:
+
+### https://www.youtube.com/@pouyabeyranvand1688
 ---
 
 
 ## Purpose
+This article provides basic troubleshooting steps for a Windows computer that is running slowly.
 
-This article provides basic troubleshooting steps for resolving slow computer performance issues on Windows devices.
+## Scenario
+A user reports that their PC is very slow. The issue may happen during startup, after login, when opening applications, while using the browser, or during general computer use.
 
 ## Common Symptoms
-
-- Computer is slow to start
-- Applications take a long time to open
+- Computer takes a long time to start
+- Applications open slowly
+- Browser is slow or freezes
+- Mouse or keyboard response is delayed
+- Disk usage stays high
+- CPU or memory usage is high
 - Computer freezes or becomes unresponsive
-- Mouse or keyboard input is delayed
-- High CPU usage
-- High memory usage
-- High disk usage
-- Web browser is slow
-- Device becomes slow after login
-- System performance gets worse during normal work
+- User reports the issue started after an update or new software installation
 
-## Quick Checks
-
-1. Ask the user when the issue started.
-2. Confirm whether the issue affects one device or multiple devices.
-3. Ask if the issue happens all the time or only with specific applications.
-4. Restart the computer.
-5. Close unused applications and browser tabs.
-6. Check if Windows updates or application updates are running.
-7. Check available storage space.
-8. Confirm whether the device is connected to VPN, external drives, or docking stations.
+## Possible Causes
+- Long system uptime
+- Too many startup apps
+- High CPU, memory, or disk usage
+- Low disk space
+- Pending or failed Windows updates
+- Malware or unwanted software
+- Browser extensions or too many browser tabs
+- Corrupted system files
+- Disk errors or failing hard drive
+- Low RAM or older hardware
+- Network slowness affecting cloud apps or websites
 
 ## Troubleshooting Steps
 
-### 1. Confirm the Scope of the Issue
+1. **Confirm the issue with the user.**
+   - Ask when the issue started.
+   - Ask if the computer is slow all the time or only when opening specific apps.
+   - Ask if the issue started after an update, new software installation, or restart.
+   - Ask if other users or devices are having the same issue.
 
-Ask the user:
+2. **Restart the computer.**
+   - If the computer has not been restarted recently, restart it first.
+   - A restart can clear stuck processes, refresh system resources, and complete pending updates.
 
-- When did the computer become slow?
-- Is the whole computer slow or only one application?
-- Does the issue happen after login, during startup, or during specific tasks?
-- Did the issue start after an update or software installation?
-- Are other users or devices experiencing the same issue?
+   Command option:
 
-If only one application is slow, troubleshoot that application first.  
-If the entire computer is slow, continue with system performance checks.
+   `shutdown /r /t 0`
 
-### 2. Restart the Computer
+3. **Check system uptime.**
+   - Open Task Manager.
+   - Go to Performance > CPU.
+   - Check Uptime.
 
-Ask the user to restart the computer.
+   Command option:
 
-A restart can clear temporary memory issues, stuck background processes, pending updates, or locked system resources.
+   `systeminfo | find "System Boot Time"`
 
-After restarting, ask the user to log in and test normal work activities again.
+4. **Check Task Manager for high usage.**
+   - Press Ctrl + Shift + Esc.
+   - Go to the Processes tab.
+   - Sort by CPU.
+   - Sort by Memory.
+   - Sort by Disk.
+   - Look for apps using unusually high resources.
 
-### 3. Check Task Manager
+5. **Check startup apps.**
+   - Open Task Manager.
+   - Go to Startup apps.
+   - Disable unnecessary startup apps if approved.
 
-Open Task Manager and review system usage.
+6. **Check available storage.**
+   - Open File Explorer.
+   - Go to This PC.
+   - Check the C: drive free space.
+   - If the C: drive is almost full, Windows may become slow because it needs free space for temporary files, updates, and normal system operations.
 
-Check:
+   Command option:
 
-- CPU usage
-- Memory usage
-- Disk usage
-- Network usage
-- Startup applications
-- Applications marked as “Not Responding”
+   `wmic logicaldisk get size,freespace,caption`
 
-If CPU, memory, or disk usage is consistently high, identify which process is using the most resources.
+7. **Clean temporary files.**
+   - Open Run with Windows + R.
+   - Type:
 
-Common causes include:
+   `cleanmgr`
 
-- Too many browser tabs
-- Large applications
-- Background updates
-- Sync tools
-- Antivirus scans
-- Old or low-resource hardware
+   - Select the C: drive.
+   - Remove temporary files, recycle bin files, and other unnecessary files.
 
-### 4. Close Unused Applications
+   Another option:
 
-Close applications the user is not actively using.
+   `Settings > System > Storage > Temporary files`
 
-Examples:
+8. **Check Windows Updates.**
+   - Go to:
 
-- Extra browser windows or tabs
-- Unused Microsoft Office files
-- Streaming applications
-- Background tools
-- Applications showing “Not Responding”
+   `Settings > Windows Update`
 
-After closing unused applications, check whether performance improves.
+   - Check if updates are pending.
+   - Install important updates if needed.
+   - Restart the computer after updates.
 
-### 5. Check Available Storage
+   Command option:
 
-Open File Explorer and check available space on the C: drive.
+   `control update`
 
-Low disk space can cause slow performance.
+9. **Check for malware or unwanted software.**
+   - Open Windows Security.
+   - Go to Virus & threat protection.
+   - Run a Quick scan.
+   - If needed, run a Full scan.
 
-Recommended checks:
+   Command option:
 
-- Confirm available storage
-- Empty Recycle Bin if appropriate
-- Remove unnecessary downloads if approved
-- Move large files to approved storage location
-- Run Disk Cleanup if allowed by company policy
+   `windowsdefender:`
 
-Do not delete user files without user approval.
+   PowerShell option:
 
-### 6. Check Startup Applications
+   `Start-MpScan -ScanType QuickScan`
 
-Open Task Manager and go to the Startup apps tab.
+10. **Check installed apps.**
+   - Go to:
 
-Review applications that start automatically when the user logs in.
+   `Settings > Apps > Installed apps`
 
-Disable unnecessary startup applications only if allowed by company policy.
+   - Look for recently installed or suspicious apps.
+   - Remove unnecessary software only if approved.
 
-Common examples may include:
+   Command option:
 
-- Chat applications
-- Cloud sync tools
-- Updaters
-- Printer utilities
-- Vendor tools
+   `appwiz.cpl`
 
-After changing startup apps, restart the computer and test performance again.
+11. **Check browser performance.**
+   - Check the number of open tabs.
+   - Disable unnecessary browser extensions.
+   - Clear browser cache if needed.
+   - Test another browser.
+   - If only browser performance is slow, the issue may be browser-related instead of full system slowness.
 
-### 7. Check for Windows Updates
+12. **Check disk health.**
+   - Open Command Prompt as Administrator.
+   - Run:
 
-Check if Windows updates are installing, downloading, or waiting for restart.
+   `chkdsk C:`
 
-Pending updates can slow down a device.
+   - Check disk status:
 
-Steps:
+   `wmic diskdrive get status`
 
-1. Open Settings.
-2. Go to Windows Update.
-3. Check update status.
-4. Install or restart only if approved by company policy.
+   PowerShell option:
 
-After updates are complete, restart the computer and test performance again.
+   `Get-PhysicalDisk`
 
-### 8. Check Browser Performance
+13. **Check system files.**
+   - Open Command Prompt as Administrator.
+   - Run:
 
-If the user mainly reports slow web browsing, check the browser.
+   `sfc /scannow`
 
-Possible steps:
+   - If system file issues continue, run:
 
-- Close unused tabs
-- Clear browser cache
-- Disable unnecessary extensions
-- Test another browser
-- Check internet connection
-- Confirm whether the issue happens on one website or all websites
+   `DISM /Online /Cleanup-Image /RestoreHealth`
 
-If only one website is slow, the issue may be with that website or service.
+14. **Check network-related slowness.**
+   - If only websites or cloud apps are slow, test the network.
+   - Run:
 
-### 9. Check for Malware or Security Alerts
+   `ping 8.8.8.8`
 
-If the computer suddenly becomes slow, check for security alerts.
+   `ping google.com`
 
-Look for:
+   `ipconfig /all`
 
-- Antivirus warnings
-- Unknown applications
-- Suspicious browser pop-ups
-- Unusual startup programs
-- Unexpected CPU or disk usage
+   - If the computer itself is not slow but websites or cloud apps are slow, the issue may be related to network connectivity or DNS.
 
-Follow company security procedures before removing software or running scans.
+15. **Check hardware specifications.**
+   - Open System Information.
+   - Run:
 
-Escalate to the security team if malware or compromise is suspected.
+   `msinfo32`
 
-### 10. Check Device Health and Hardware Limits
+   - Check:
+     - Processor
+     - Installed RAM
+     - Windows version
+     - System model
 
-If the device is older or has limited hardware resources, performance may be affected by normal workload.
+   - If the computer has low RAM, an older CPU, or an HDD instead of an SSD, the system may be slow because of hardware limitations.
 
-Check:
+16. **Check Event Viewer.**
+   - Open Run with Windows + R.
+   - Type:
 
-- RAM amount
-- Disk type, such as HDD or SSD
-- Battery health for laptops
-- Device age
-- Number of applications required for the user’s role
+   `eventvwr.msc`
 
-If hardware is not sufficient for the user’s workload, document the issue and escalate for review.
+   - Check:
+     - Windows Logs > System
+     - Windows Logs > Application
 
-## Escalation Criteria
+   - Look for disk errors, app crashes, driver errors, or update failures.
 
-Escalate the issue to Tier 2, desktop support, system administrator, or security team if:
+17. **Test performance after each fix.**
+   - Restart the computer.
+   - Open common apps.
+   - Open the browser.
+   - Check Task Manager again.
+   - Ask the user if performance improved.
 
-- The device remains slow after basic troubleshooting
-- CPU, memory, or disk usage stays extremely high
-- The issue affects multiple users or devices
-- Malware or suspicious activity is suspected
-- The computer frequently freezes or crashes
-- The device has hardware errors
-- The hard drive may be failing
-- The user cannot complete critical work
-- Performance issues started after a company-wide update
-- Hardware upgrade or replacement may be needed
-
-## Documentation Example
-
-User reported that their Windows laptop was running slowly after login and applications were taking several minutes to open. Confirmed the issue affected the whole computer, not just one application. Opened Task Manager and found high memory usage with multiple browser tabs and several startup applications running. Closed unused applications, disabled unnecessary startup apps according to company policy, and restarted the computer. After reboot, the user confirmed applications opened faster and normal work performance improved.
+18. **Escalate if the issue continues.**
+   - Escalate the ticket if:
+     - Disk usage stays at 100%
+     - Hard drive health looks bad
+     - RAM is too low for normal work
+     - System files cannot be repaired
+     - Malware is detected but cannot be removed
+     - The computer is very old or hardware upgrade is needed
+     - The issue affects multiple users or devices
 
 ## Resolution
+Document what fixed the issue. Examples may include disabling startup apps, freeing disk space, completing Windows updates, removing unwanted software, fixing corrupted system files, or identifying hardware limitations.
 
-Issue resolved after closing unused applications, reviewing startup apps, and restarting the computer.
-
-## Verification
-
-Confirmed the computer restarted successfully. User opened browser, email, and Microsoft Office applications without delay. User confirmed system performance improved.
-
-## Prevention / Notes
-
-- Encourage users to restart their computers regularly.
-- Keep Windows and applications updated according to company policy.
-- Avoid keeping too many browser tabs and applications open at the same time.
-- Monitor recurring performance issues by device, user, application, and location.
-- Document high CPU, memory, or disk usage in the ticket.
+## Notes
+A slow PC issue can be caused by software, storage, updates, malware, browser problems, network issues, or hardware limitations. Start with simple checks first before moving to deeper troubleshooting.
 - Escalate repeated slow performance issues for hardware or system review.
