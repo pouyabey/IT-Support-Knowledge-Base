@@ -35,7 +35,7 @@ A user reports that their computer cannot access the internet, but other website
 - Network adapter problem
 
 ## Troubleshooting Steps
-1. Confirm the scope of the issue.
+1. Confirm that other devices on the same network can access the internet.
 2. Check physical connection or Wi-Fi connection.
 3. Test another website.
 4. Test with another browser.
