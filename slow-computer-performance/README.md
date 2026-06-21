@@ -56,22 +56,23 @@ A user reports that their PC is very slow. The issue may happen during startup, 
    - Ask if the issue started after an update, new software installation, or restart.
    - Ask if other users or devices are having the same issue.
 
-2. **Restart the computer.**
-   - If the computer has not been restarted recently, restart it first.
+2. **Check system uptime.**
+   - Open Task Manager.
+   - Go to Performance > CPU.
+   - Check Uptime.
+   - If uptime is very high, a restart may help clear stuck processes and refresh system resources.
+
+   Command option:
+
+   `systeminfo | find "System Boot Time"`
+
+3. **Restart the computer.**
+   - Restart the computer if the uptime is high, updates are pending, or the system has not been restarted recently.
    - A restart can clear stuck processes, refresh system resources, and complete pending updates.
 
    Command option:
 
    `shutdown /r /t 0`
-
-3. **Check system uptime.**
-   - Open Task Manager.
-   - Go to Performance > CPU.
-   - Check Uptime.
-
-   Command option:
-
-   `systeminfo | find "System Boot Time"`
 
 4. **Check Task Manager for high usage.**
    - Press Ctrl + Shift + Esc.
