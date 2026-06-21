@@ -6,12 +6,15 @@ A simple collection of IT support knowledge base articles for common Help Desk i
 
 ## Contents
 
-- [Internet Connectivity Troubleshooting](./internet-connectivity-troubleshooting/README.md) — Troubleshooting Wi-Fi, Ethernet, DNS, DHCP, and basic internet issues.
-- [Printer Not Printing](./printer-not-printing/README.md) — Basic printer checks, print queue issues, and driver troubleshooting.
 - [Application Not Responding](./application-not-responding/README.md) — Steps for frozen, crashing, or unresponsive applications.
-- [Slow Computer Performance](./slow-computer-performance/README.md) — Common causes and fixes for slow Windows computers.
-- [Computer Will Not Power On](./computer-will-not-power-on/README.md) — Basic power, cable, and hardware checks.
 - [BSOD Troubleshooting](./bsod-troubleshooting/README.md) — Basic Blue Screen of Death troubleshooting and escalation notes.
+- [Computer Stuck in Boot Loop](./computer-stuck-in-boot-loop/README.md) — Troubleshooting a Windows computer that keeps restarting or cannot load Windows.
+- [Computer Will Not Power On](./computer-will-not-power-on/README.md) — Basic power, cable, charger, outlet, and hardware checks.
+- [Internet Access Single User Issue](./internet-access-single-user-issue/README.md) — Troubleshooting when one user or one device cannot access the internet while other devices work.
+- [Internet Connectivity Troubleshooting](./internet-connectivity-troubleshooting/README.md) — Troubleshooting Wi-Fi, Ethernet, DNS, DHCP, and basic internet issues.
+- [Printer Not Printing](./printer-not-printing/README.md) — Basic printer checks, print queue issues, offline status, and driver troubleshooting.
+- [Slow Computer Performance](./slow-computer-performance/README.md) — Common causes and fixes for slow Windows computers.
+- [Windows User Profile Corruption Troubleshooting](./windows-user-profile-corruption-troubleshooting/README.md) — Troubleshooting temporary profiles, corrupted user profiles, and login profile issues.
 
 ---
 
@@ -27,6 +30,10 @@ This repository was created to document common IT support issues in a clear, sim
 - GitHub
 - Windows troubleshooting tools
 - Command Prompt
+- PowerShell
+- Task Manager
+- Event Viewer
+- Windows Settings
 - Screenshots when helpful
 
 ---
