@@ -13,7 +13,7 @@
 8. Include ticket documentation notes
 9. Keep the article simple, organized, and easy to update
 
-## It is recommended to include screenshots. However, since these documents are mainly for my personal reference, I prefer to keep them simple and avoid adding screenshots. Instead, I create a video for each knowledge base article and include it in my video portfolio:
+### It is recommended to include screenshots in Knowledge Base articles. However, since these documents are mainly for my personal reference, I prefer to keep them simple and avoid adding screenshots. Instead, I create a video for each knowledge base article and include it in my video portfolio:
 
 # https://www.youtube.com/@pouyabeyranvand1688
 
