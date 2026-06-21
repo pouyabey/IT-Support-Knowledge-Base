@@ -13,7 +13,7 @@
 9. Keep the article simple, organized, and easy to update
 
 ## Purpose
-This article provides basic troubleshooting steps for a user who cannot access the internet while other devices on the same network are working.
+This article provides troubleshooting steps for a user who cannot access the internet while other devices on the same network are working.
 
 ## Scenario
 A user reports that their computer cannot access the internet, but other websites or devices on the same network are working.
