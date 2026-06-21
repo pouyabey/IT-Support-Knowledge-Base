@@ -215,3 +215,22 @@ Document what fixed the issue. Examples may include turning off Work Offline, cl
 
 ## Notes
 Testing Outlook Web App is important because it helps identify whether the issue is local to the Outlook desktop app or related to Microsoft 365, Exchange Online, the mailbox, or the user account.
+
+# My Personal Summary 
+
+1: Restart Outlook and the system
+2: Test with outlook web 
+3: Disable add-ins 
+- Windows + R and run Outlook.exe / safe 
+- If it works normally in safe mode, add-ins may be the cause! 
+File > Options > Add-ins then disable ! 
+4: Repair Microsoft 365 
+- Windows + R and run appwiz.cpl
+- Select Microsoft 365 
+- Click change
+- Run quick repair first 
+- Then run online repair 
+
+
+
+پغ
