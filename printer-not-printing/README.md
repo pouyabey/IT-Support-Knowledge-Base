@@ -200,7 +200,8 @@ If only one user cannot print, the issue is usually related to that computer, pr
 
 
 ## My personal summary 
-### Use [IT Support Useful Commands](https://github.com/pouyabey/IT-support-useful-commands-) repository
+### Use [IT Support Useful Commands](https://github.com/pouyabey/IT-support-useful-commands-) repository printer section 
+
 ### 1: Confirm the issue with user, check printer power, status, and connection 
 - When the issue started, affected one user or multiple
 - Wether the printer is powered on
