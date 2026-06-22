@@ -165,3 +165,24 @@ Document what fixed the issue, such as DNS reset, proxy disabled, browser issue,
 
 ## Notes
 If other devices are working, the problem is most likely related to the user's device, browser, DNS, VPN, proxy, or adapter settings.
+
+
+## My personal summary 
+
+### 1: Confirm other devices on the same network has internet access 
+### 2: Check Ethernet cable or Wi-Fi SSID 
+### 3: Test another website, browser, restart browser and system 
+### 4: Run ncpa.cpl, disable and re-enable network adapter 
+### 5: Check IP configuration, DNS, VPN, 
+- IP starts with 169.254 is DHCP problem
+- Ipv4, subnetmask, DNS, DHCP, Default gateway
+- Ipconfig /all
+- Ipconfig /release
+- Ipconfig /all
+- Ping default gateway
+- Ping or nslookup for DNS check
+- Flush DNS by ipconfig /flushdns
+- Check whether there is a fulty VPN
+- Check proxy in settings > Network and Internet > Proxy
+
+
