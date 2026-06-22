@@ -197,3 +197,24 @@ Document what fixed the issue. Examples may include restarting the Print Spooler
 
 ## Notes
 If only one user cannot print, the issue is usually related to that computer, printer queue, printer settings, or driver. If multiple users cannot print, check the printer, network connection, IP address, or print server.
+
+
+## My personal summary 
+
+### 1: Confirm the issue with user, check printer power, status, and connection 
+- When the issue started, affected one user or multiple
+- Wether the printer is powered on
+- Run control printers for status, check toner
+- Check USB and Ethernet connection
+
+### 2: Check printer queue and restart spooler 
+- Run control printers, check what is printing
+- Net stop spooler, Net start spooler, Run servisec.msc
+- Check printer IP in port tab, ping printer IP
+- Remove and re-add the printer, update driver (Get latest update from vendor's official website)
+- Check Windows update 
+
+
+
+
+
