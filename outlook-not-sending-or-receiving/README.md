@@ -220,17 +220,18 @@ Testing Outlook Web App is important because it helps identify whether the issue
 
 ### 1: Restart Outlook and the system
 
+### 2: Check network connectivity 
 
-### 2: Test with outlook web 
+### 3: Clear cache
 
+### 4: Test with outlook web 
 
-### 3: Disable add-ins 
+### 5: Disable add-ins 
 - Windows + R and run Outlook.exe / safe 
 - If it works normally in safe mode, add-ins may be the cause! 
 File > Options > Add-ins then disable ! 
 
-
-### 4: Repair Microsoft 365 
+### 6: Repair Microsoft 365 
 - Windows + R and run appwiz.cpl
 - Select Microsoft 365 
 - Click change
